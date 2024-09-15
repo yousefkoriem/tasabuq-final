@@ -1,0 +1,101 @@
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section * {
+  direction: rtl;
+}
+
+section h2 {
+  text-align: center;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  color: #4d6895;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.card{
+  background-color: #ffff;
+  width: max-content;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 12px auto;
+  transition: 0.5s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card .icon{
+  margin: auto;
+}
+.card .icon img {
+  border-radius: 1.2em;
+  box-shadow: 1px 2px 3px black;
+  width: 128px;
+  height: 170px;
+}
+
+.info{
+  text-align: center;
+  color: #000f;
+}
+
+.info h3{
+  color: #184add;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.content a{
+  text-decoration: none;
+}
+
+.projects{
+  background-color: #080016dd;
+}
+
+.projects .content{
+  margin-top: 30px;
+}
+.project-img img{
+  width: 100%;
+}
+
+.project-info{
+  padding: 1em;
+}
+
+.project-category{
+  font-size: 0.8em;
+  color: #000f;
+}
+
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+section span {
+  padding: .2em 1.2em;
+  text-align: justify;
+}
