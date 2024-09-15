@@ -45,3 +45,9 @@ header h3 {
   border-radius: .5rem;
   color: #333;
 }
+footer {
+  display: flex;
+  padding: 1em;
+  background-color: #2b394f;
+  height: 3vh;
+}
